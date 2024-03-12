@@ -1,7 +1,7 @@
  /* body{
     background-color: grey;
  } */
- .container{
+ .box1{
     display: flex;
     justify-content: space-between;
 }
@@ -11,4 +11,11 @@
 }
 .navbar{
     background-color: red;
+}
+.movie__list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
 }
